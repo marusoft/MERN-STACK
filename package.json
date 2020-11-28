@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A full-stack JavaScript Application using MongoDB, Express, React and Nodejs",
   "main": "app.js",
+  "type": "module",
   "engines": {
     "node": "10.16.3",
     "npm": "6.14.6"
