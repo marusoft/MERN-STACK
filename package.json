@@ -13,7 +13,7 @@
     "build-babel": "babel ./backend -d build",
     "start": "npm run build && node ./build/app.js",
     "clean": "rm -rf build && mkdir build",
-    "start:dev": "nodemon --exec babel-node app"
+    "start:dev": "nodemon --exec babel-node ./backend/app.js"
   },
   "repository": {
     "type": "git",
