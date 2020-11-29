@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 import mongoose from 'mongoose';
-import config from '../../config';
+import config from '../config';
 
 const User = mongoose.model('User');
 

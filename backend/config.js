@@ -1,8 +1,8 @@
-/* eslint-disable import/no-mutable-exports */
 import dotenv from 'dotenv';
 
 dotenv.config();
 
+// eslint-disable-next-line import/no-mutable-exports
 let config;
 
 if (process.env.NODE_ENV === 'production') {

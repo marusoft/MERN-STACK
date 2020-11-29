@@ -4,12 +4,12 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import config from './config';
 import 'colors';
-import './backend/models/user.models';
-import './backend/models/post.models';
+import './models/user.models';
+import './models/post.models';
 
-import userRouter from './backend/routes/user.routes';
-import postRouter from './backend/routes/post.routes';
-import profileRouter from './backend/routes/user.profile.routes';
+import userRouter from './routes/user.routes';
+import postRouter from './routes/post.routes';
+import profileRouter from './routes/user.profile.routes';
 
 const app = express();
 const port = process.env.PORT || 4000;
