@@ -34,6 +34,7 @@
   "homepage": "https://github.com/marusoft/mern-stack-instagram-clone#readme",
   "dependencies": {
     "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "cors": "^2.8.5",
